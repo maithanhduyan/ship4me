@@ -23,10 +23,6 @@
                     <span class="fs-4">Ship4Me</span>
                 </a>
 
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 link">Gửi Hàng</a></li>
-                    <li><a href="#" class="nav-link px-2 link">Chuyển Phát</a></li>
-                </ul>
                 @guest
                 <div class="col-md-3 text-end">
                     <a href="{{route('login')}}" type="button" class="btn btn-outline-primary me-2">Đăng Nhập</a>
@@ -35,7 +31,10 @@
                 @endguest
             </header>
         </div>
-
+        <h3 class="text-center">Chúng tôi đang xây dựng lại thế giới tốt đẹp hơn</h3>
+        <div class="text-center">
+            <img src="{{asset('/img/how-long-build-professional-website.jpg')}}">
+        </div>
     </main>
 
     <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
